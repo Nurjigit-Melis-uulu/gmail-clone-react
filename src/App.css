@@ -5,3 +5,13 @@
 .SideBarOption>.MuiSvgIcon-root {
   padding: 5px;
 }
+
+.App {
+  height: 100vh;
+}
+
+.App__body {
+  display: flex;
+  height: 100vh;
+
+}

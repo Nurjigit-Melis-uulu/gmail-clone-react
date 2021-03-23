@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./SideBarOption.css";
+import classes from "./SidebarOption.css";
 
 function SideBarOption({ Icon, title, number, selected }) {
   return (

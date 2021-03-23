@@ -1,15 +1,31 @@
 import React from "react";
 import Header from "./Header";
 import "./App.css";
-import SideBar from "./SideBar";
+import Sidebar from "./Sidebar";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import EmailList from "./EmailList";
+import Mail from "./Mail";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <SideBar />
-      <h1>Lets build gmail</h1>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+
+        <div className="App__body">
+          <Sidebar />
+
+          <Switch>
+            <Route path="/mail">
+              <Mail />
+            </Route>
+            <Route path="/">
+              <EmailList />
+            </Route>
+          </Switch>
+        </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
