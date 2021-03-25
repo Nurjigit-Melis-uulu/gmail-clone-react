@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 
-import classes from "./Sidebar.module.css";
+import classes from "./SideBar.module.css";
 
 import SidebarOption from "./SidebarOption";
 import { openSendMessage } from "./features/MailSlice";
