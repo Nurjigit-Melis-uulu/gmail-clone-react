@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import "./App.css";
-import Sidebar from "./Sidebar";
+import SideBar from "./SideBar";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import EmailList from "./EmailList";
 import Mail from "./Mail";
@@ -18,7 +18,7 @@ function App() {
         <Header />
 
         <div className="App__body">
-          <Sidebar />
+          <SideBar />
 
           <Switch>
             <Route path="/mail">
