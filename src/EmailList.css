@@ -22,3 +22,16 @@
   background-color: white;
   z-index: 99;
 }
+
+.EmailList__List {
+  padding-bottom: 20%;
+}
+
+.EmailList::-webkit-scrollbar {
+  display: none;
+}
+
+.EmailList {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
