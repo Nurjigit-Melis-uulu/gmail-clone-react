@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 
 import classes from "./SideBar.module.css";
 
-import SidebarOption from "./SidebarOption";
+import SidebarOption from "./SideBarOption";
 import { openSendMessage } from "./features/MailSlice";
 
 import { Button, IconButton } from "@material-ui/core";
