@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import classes from "./SideBar.module.css";
 
 import SidebarOption from "./SideBarOption";
-import { openSendMessage } from "./features/MailSlice";
+import { openSendMessage } from "./features/mailSlice";
 
 import { Button, IconButton } from "@material-ui/core";
 import AddIcon from "@material-ui/icons/Add";

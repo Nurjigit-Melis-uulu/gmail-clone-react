@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { useForm } from "react-hook-form";
 import firebase from "firebase";
 
-import { closeSendMessage } from "./features/MailSlice";
+import { closeSendMessage } from "./features/mailSlice";
 import { db } from "./firebase";
 
 import "./SendMail.css";

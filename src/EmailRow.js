@@ -3,7 +3,7 @@ import { useHistory } from "react-router";
 import { useDispatch } from "react-redux";
 
 import "./EmailRow.css";
-import { selectMail } from "./features/MailSlice";
+import { selectMail } from "./features/mailSlice";
 
 import { Checkbox, IconButton } from "@material-ui/core";
 import StarBorderIcon from "@material-ui/icons/StarBorder";

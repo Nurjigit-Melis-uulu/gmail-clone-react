@@ -16,7 +16,7 @@ import React from "react";
 import "./Mail.css";
 import { useHistory } from "react-router";
 import { useSelector } from "react-redux";
-import { selectOpenMail } from "./features/MailSlice";
+import { selectOpenMail } from "./features/mailSlice";
 
 function Mail(props) {
   const history = useHistory();
